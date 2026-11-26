@@ -1,0 +1,19 @@
+{
+  "name": "marido-aluguel",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./public",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "marido-aluguel-connect-db",
+      "database_id": "9b89d339-632a-40b0-b63b-df54a15a2e0e"
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGINS": ""
+  }
+}
